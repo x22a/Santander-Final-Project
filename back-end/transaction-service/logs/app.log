@@ -1,0 +1,146 @@
+2020-07-18 21:07:55,340 INFO c.i.t.s.TransactionService [http-nio-8084-exec-3] [INFO] - Find all Transactions
+2020-07-18 21:07:55,340 INFO c.i.t.s.TransactionService [http-nio-8084-exec-3] [INFO] - Find all Transactions
+2020-07-18 21:14:07,580 INFO c.i.t.s.TransactionService [http-nio-8084-exec-2] [INFO] - New transaction with ID: 1
+2020-07-18 21:14:07,580 INFO c.i.t.s.TransactionService [http-nio-8084-exec-2] [INFO] - New transaction with ID: 1
+2020-07-18 21:31:00,190 INFO c.i.t.s.TransactionService [http-nio-8084-exec-3] [INFO] - New transaction with ID: 1
+2020-07-18 21:31:00,190 INFO c.i.t.s.TransactionService [http-nio-8084-exec-3] [INFO] - New transaction with ID: 1
+2020-07-19 20:25:03,924 INFO c.i.t.s.TransactionService [http-nio-8084-exec-3] [INFO] - Find all Transactions
+2020-07-19 20:25:03,924 INFO c.i.t.s.TransactionService [http-nio-8084-exec-3] [INFO] - Find all Transactions
+2020-07-20 12:26:44,640 INFO c.i.t.s.TransactionService [http-nio-8084-exec-1] [INIT] - Find Transaction with ID: 1
+2020-07-20 12:26:44,640 INFO c.i.t.s.TransactionService [http-nio-8084-exec-1] [INIT] - Find Transaction with ID: 1
+2020-07-20 12:26:44,666 WARN c.i.t.s.TransactionService [http-nio-8084-exec-1] [WARN] - Transaction with id 1 not found
+2020-07-20 12:26:44,666 WARN c.i.t.s.TransactionService [http-nio-8084-exec-1] [WARN] - Transaction with id 1 not found
+2020-07-20 12:27:27,609 INFO c.i.t.s.TransactionService [http-nio-8084-exec-3] [INIT] - Find Transaction with ID: 1
+2020-07-20 12:27:27,609 INFO c.i.t.s.TransactionService [http-nio-8084-exec-3] [INIT] - Find Transaction with ID: 1
+2020-07-20 12:27:27,609 WARN c.i.t.s.TransactionService [http-nio-8084-exec-3] [WARN] - Transaction with id 1 not found
+2020-07-20 12:27:27,609 WARN c.i.t.s.TransactionService [http-nio-8084-exec-3] [WARN] - Transaction with id 1 not found
+2020-07-20 12:55:51,317 INFO c.i.t.s.TransactionService [http-nio-8084-exec-1] [INFO] - New Transaction with ID: null
+2020-07-20 12:55:51,317 INFO c.i.t.s.TransactionService [http-nio-8084-exec-1] [INFO] - New Transaction with ID: null
+2020-07-20 12:57:32,613 INFO c.i.t.s.TransactionService [http-nio-8084-exec-2] [INFO] - New Transaction with ID: null
+2020-07-20 12:57:32,613 INFO c.i.t.s.TransactionService [http-nio-8084-exec-2] [INFO] - New Transaction with ID: null
+2020-07-20 13:00:07,507 INFO c.i.t.s.TransactionService [http-nio-8084-exec-3] [INFO] - New Transaction with ID: null
+2020-07-20 13:00:07,507 INFO c.i.t.s.TransactionService [http-nio-8084-exec-3] [INFO] - New Transaction with ID: null
+2020-07-20 13:00:55,449 INFO c.i.t.s.TransactionService [http-nio-8084-exec-4] [INFO] - New Transaction with ID: null
+2020-07-20 13:00:55,449 INFO c.i.t.s.TransactionService [http-nio-8084-exec-4] [INFO] - New Transaction with ID: null
+2020-07-20 13:01:28,869 INFO c.i.t.s.TransactionService [http-nio-8084-exec-5] [INFO] - New Transaction with ID: null
+2020-07-20 13:01:28,869 INFO c.i.t.s.TransactionService [http-nio-8084-exec-5] [INFO] - New Transaction with ID: null
+2020-07-20 13:03:41,795 INFO c.i.t.s.TransactionService [http-nio-8084-exec-6] [INFO] - New Transaction with ID: null
+2020-07-20 13:03:41,795 INFO c.i.t.s.TransactionService [http-nio-8084-exec-6] [INFO] - New Transaction with ID: null
+2020-07-20 13:04:27,673 INFO c.i.t.s.TransactionService [http-nio-8084-exec-7] [INFO] - New Transaction with ID: null
+2020-07-20 13:04:27,673 INFO c.i.t.s.TransactionService [http-nio-8084-exec-7] [INFO] - New Transaction with ID: null
+2020-07-20 13:06:03,319 INFO c.i.t.s.TransactionService [http-nio-8084-exec-8] [INFO] - New Transaction with ID: null
+2020-07-20 13:06:03,319 INFO c.i.t.s.TransactionService [http-nio-8084-exec-8] [INFO] - New Transaction with ID: null
+2020-07-20 13:25:52,457 INFO c.i.t.s.TransactionService [http-nio-8084-exec-1] [INFO] - New Transaction with ID: null
+2020-07-20 13:25:52,457 INFO c.i.t.s.TransactionService [http-nio-8084-exec-1] [INFO] - New Transaction with ID: null
+2020-07-20 16:31:25,481 INFO c.i.t.s.TransactionService [http-nio-8084-exec-3] [INFO] - New Transaction with ID: null
+2020-07-20 16:31:25,481 INFO c.i.t.s.TransactionService [http-nio-8084-exec-3] [INFO] - New Transaction with ID: null
+2020-07-20 16:34:15,890 INFO c.i.t.s.TransactionService [http-nio-8084-exec-5] [INFO] - New Transaction with ID: null
+2020-07-20 16:34:15,890 INFO c.i.t.s.TransactionService [http-nio-8084-exec-5] [INFO] - New Transaction with ID: null
+2020-07-20 16:34:43,579 INFO c.i.t.s.TransactionService [http-nio-8084-exec-7] [INFO] - New Transaction with ID: null
+2020-07-20 16:34:43,579 INFO c.i.t.s.TransactionService [http-nio-8084-exec-7] [INFO] - New Transaction with ID: null
+2020-07-20 16:36:04,530 INFO c.i.t.s.TransactionService [http-nio-8084-exec-9] [INFO] - New Transaction with ID: null
+2020-07-20 16:36:04,530 INFO c.i.t.s.TransactionService [http-nio-8084-exec-9] [INFO] - New Transaction with ID: null
+2020-07-20 16:39:24,674 INFO c.i.t.s.TransactionService [http-nio-8084-exec-1] [INFO] - New Transaction with ID: null
+2020-07-20 16:39:24,674 INFO c.i.t.s.TransactionService [http-nio-8084-exec-1] [INFO] - New Transaction with ID: null
+2020-07-20 16:47:25,602 INFO c.i.t.s.TransactionService [http-nio-8084-exec-3] [INFO] - New Transaction with ID: null
+2020-07-20 16:47:25,602 INFO c.i.t.s.TransactionService [http-nio-8084-exec-3] [INFO] - New Transaction with ID: null
+2020-07-20 16:47:30,611 INFO c.i.t.s.TransactionService [http-nio-8084-exec-4] [INFO] - New Transaction with ID: null
+2020-07-20 16:47:30,611 INFO c.i.t.s.TransactionService [http-nio-8084-exec-4] [INFO] - New Transaction with ID: null
+2020-07-20 16:51:04,854 INFO c.i.t.s.TransactionService [http-nio-8084-exec-6] [INFO] - New Transaction with ID: null
+2020-07-20 16:51:04,854 INFO c.i.t.s.TransactionService [http-nio-8084-exec-6] [INFO] - New Transaction with ID: null
+2020-07-20 16:52:02,112 INFO c.i.t.s.TransactionService [http-nio-8084-exec-8] [INFO] - New Transaction with ID: null
+2020-07-20 16:52:02,112 INFO c.i.t.s.TransactionService [http-nio-8084-exec-8] [INFO] - New Transaction with ID: null
+2020-07-20 16:52:55,387 INFO c.i.t.s.TransactionService [http-nio-8084-exec-10] [INFO] - New Transaction with ID: null
+2020-07-20 16:52:55,387 INFO c.i.t.s.TransactionService [http-nio-8084-exec-10] [INFO] - New Transaction with ID: null
+2020-07-20 16:59:22,445 INFO c.i.t.s.TransactionService [http-nio-8084-exec-2] [INFO] - New Transaction with ID: null
+2020-07-20 16:59:22,445 INFO c.i.t.s.TransactionService [http-nio-8084-exec-2] [INFO] - New Transaction with ID: null
+2020-07-20 17:00:17,146 INFO c.i.t.s.TransactionService [http-nio-8084-exec-4] [INFO] - New Transaction with ID: null
+2020-07-20 17:00:17,146 INFO c.i.t.s.TransactionService [http-nio-8084-exec-4] [INFO] - New Transaction with ID: null
+2020-07-20 17:00:48,397 INFO c.i.t.s.TransactionService [http-nio-8084-exec-6] [INFO] - New Transaction with ID: null
+2020-07-20 17:00:48,397 INFO c.i.t.s.TransactionService [http-nio-8084-exec-6] [INFO] - New Transaction with ID: null
+2020-07-20 17:01:08,436 INFO c.i.t.s.TransactionService [http-nio-8084-exec-8] [INFO] - New Transaction with ID: null
+2020-07-20 17:01:08,436 INFO c.i.t.s.TransactionService [http-nio-8084-exec-8] [INFO] - New Transaction with ID: null
+2020-07-20 17:02:34,966 INFO c.i.t.s.TransactionService [http-nio-8084-exec-10] [INFO] - New Transaction with ID: null
+2020-07-20 17:02:34,966 INFO c.i.t.s.TransactionService [http-nio-8084-exec-10] [INFO] - New Transaction with ID: null
+2020-07-20 17:03:43,146 INFO c.i.t.s.TransactionService [http-nio-8084-exec-2] [INFO] - New Transaction with ID: null
+2020-07-20 17:03:43,146 INFO c.i.t.s.TransactionService [http-nio-8084-exec-2] [INFO] - New Transaction with ID: null
+2020-07-20 17:04:29,453 INFO c.i.t.s.TransactionService [http-nio-8084-exec-4] [INFO] - New Transaction with ID: null
+2020-07-20 17:04:29,453 INFO c.i.t.s.TransactionService [http-nio-8084-exec-4] [INFO] - New Transaction with ID: null
+2020-07-20 17:16:26,782 INFO c.i.t.s.TransactionService [http-nio-8084-exec-6] [INFO] - New Transaction with ID: null
+2020-07-20 17:16:26,782 INFO c.i.t.s.TransactionService [http-nio-8084-exec-6] [INFO] - New Transaction with ID: null
+2020-07-20 17:24:17,740 INFO c.i.t.s.TransactionService [http-nio-8084-exec-8] [INFO] - New Transaction with ID: null
+2020-07-20 17:24:17,740 INFO c.i.t.s.TransactionService [http-nio-8084-exec-8] [INFO] - New Transaction with ID: null
+2020-07-20 17:26:40,625 INFO c.i.t.s.TransactionService [http-nio-8084-exec-10] [INFO] - New Transaction with ID: null
+2020-07-20 17:26:40,625 INFO c.i.t.s.TransactionService [http-nio-8084-exec-10] [INFO] - New Transaction with ID: null
+2020-07-20 17:30:25,875 INFO c.i.t.s.TransactionService [http-nio-8084-exec-2] [INFO] - New Transaction with ID: null
+2020-07-20 17:30:25,875 INFO c.i.t.s.TransactionService [http-nio-8084-exec-2] [INFO] - New Transaction with ID: null
+2020-07-20 17:30:44,596 INFO c.i.t.s.TransactionService [http-nio-8084-exec-4] [INFO] - New Transaction with ID: null
+2020-07-20 17:30:44,596 INFO c.i.t.s.TransactionService [http-nio-8084-exec-4] [INFO] - New Transaction with ID: null
+2020-07-20 17:39:23,281 INFO c.i.t.s.TransactionService [http-nio-8084-exec-6] [INFO] - New Transaction with ID: null
+2020-07-20 17:39:23,281 INFO c.i.t.s.TransactionService [http-nio-8084-exec-6] [INFO] - New Transaction with ID: null
+2020-07-20 17:54:20,959 INFO c.i.t.s.TransactionService [http-nio-8084-exec-8] [INFO] - New Transaction with ID: null
+2020-07-20 17:54:20,959 INFO c.i.t.s.TransactionService [http-nio-8084-exec-8] [INFO] - New Transaction with ID: null
+2020-07-20 18:00:59,149 INFO c.i.t.s.TransactionService [http-nio-8084-exec-10] [INFO] - New Transaction with ID: null
+2020-07-20 18:00:59,149 INFO c.i.t.s.TransactionService [http-nio-8084-exec-10] [INFO] - New Transaction with ID: null
+2020-07-20 18:13:27,225 INFO c.i.t.s.TransactionService [http-nio-8084-exec-2] [INFO] - New Transaction with ID: null
+2020-07-20 18:13:27,225 INFO c.i.t.s.TransactionService [http-nio-8084-exec-2] [INFO] - New Transaction with ID: null
+2020-07-20 18:14:20,895 INFO c.i.t.s.TransactionService [http-nio-8084-exec-4] [INFO] - New Transaction with ID: null
+2020-07-20 18:14:20,895 INFO c.i.t.s.TransactionService [http-nio-8084-exec-4] [INFO] - New Transaction with ID: null
+2020-07-20 18:14:56,769 INFO c.i.t.s.TransactionService [http-nio-8084-exec-6] [INFO] - New Transaction with ID: null
+2020-07-20 18:14:56,769 INFO c.i.t.s.TransactionService [http-nio-8084-exec-6] [INFO] - New Transaction with ID: null
+2020-07-20 18:23:55,931 INFO c.i.t.s.TransactionService [http-nio-8084-exec-8] [INFO] - New Transaction with ID: null
+2020-07-20 18:23:55,931 INFO c.i.t.s.TransactionService [http-nio-8084-exec-8] [INFO] - New Transaction with ID: null
+2020-07-20 18:35:37,420 INFO c.i.t.s.TransactionService [http-nio-8084-exec-10] [INFO] - New Transaction with ID: null
+2020-07-20 18:35:37,420 INFO c.i.t.s.TransactionService [http-nio-8084-exec-10] [INFO] - New Transaction with ID: null
+2020-07-20 18:36:49,571 INFO c.i.t.s.TransactionService [http-nio-8084-exec-2] [INFO] - New Transaction with ID: null
+2020-07-20 18:36:49,571 INFO c.i.t.s.TransactionService [http-nio-8084-exec-2] [INFO] - New Transaction with ID: null
+2020-07-20 18:45:00,958 INFO c.i.t.s.TransactionService [http-nio-8084-exec-4] [INFO] - New Transaction with ID: null
+2020-07-20 18:45:00,958 INFO c.i.t.s.TransactionService [http-nio-8084-exec-4] [INFO] - New Transaction with ID: null
+2020-07-20 18:45:27,814 INFO c.i.t.s.TransactionService [http-nio-8084-exec-6] [INFO] - New Transaction with ID: null
+2020-07-20 18:45:27,814 INFO c.i.t.s.TransactionService [http-nio-8084-exec-6] [INFO] - New Transaction with ID: null
+2020-07-20 18:47:04,769 INFO c.i.t.s.TransactionService [http-nio-8084-exec-8] [INFO] - New Transaction with ID: null
+2020-07-20 18:47:04,769 INFO c.i.t.s.TransactionService [http-nio-8084-exec-8] [INFO] - New Transaction with ID: null
+2020-07-20 18:55:29,943 INFO c.i.t.s.TransactionService [http-nio-8084-exec-10] [INFO] - New Transaction with ID: null
+2020-07-20 18:55:29,943 INFO c.i.t.s.TransactionService [http-nio-8084-exec-10] [INFO] - New Transaction with ID: null
+2020-07-20 19:00:44,778 INFO c.i.t.s.TransactionService [http-nio-8084-exec-2] [INFO] - New Transaction with ID: null
+2020-07-20 19:00:44,778 INFO c.i.t.s.TransactionService [http-nio-8084-exec-2] [INFO] - New Transaction with ID: null
+2020-07-20 19:32:09,184 INFO c.i.t.s.TransactionService [http-nio-8084-exec-4] [INFO] - New Transaction with ID: null
+2020-07-20 19:32:09,184 INFO c.i.t.s.TransactionService [http-nio-8084-exec-4] [INFO] - New Transaction with ID: null
+2020-07-20 19:49:49,387 INFO c.i.t.s.TransactionService [http-nio-8084-exec-6] [INFO] - New Transaction with ID: null
+2020-07-20 19:49:49,387 INFO c.i.t.s.TransactionService [http-nio-8084-exec-6] [INFO] - New Transaction with ID: null
+2020-07-20 19:50:56,818 INFO c.i.t.s.TransactionService [http-nio-8084-exec-8] [INFO] - New Transaction with ID: null
+2020-07-20 19:50:56,818 INFO c.i.t.s.TransactionService [http-nio-8084-exec-8] [INFO] - New Transaction with ID: null
+2020-07-20 19:53:25,400 INFO c.i.t.s.TransactionService [http-nio-8084-exec-10] [INFO] - New Transaction with ID: null
+2020-07-20 19:53:25,400 INFO c.i.t.s.TransactionService [http-nio-8084-exec-10] [INFO] - New Transaction with ID: null
+2020-07-20 20:13:15,800 INFO c.i.t.s.TransactionService [http-nio-8084-exec-2] [INFO] - Find all Transactions
+2020-07-20 20:13:15,800 INFO c.i.t.s.TransactionService [http-nio-8084-exec-2] [INFO] - Find all Transactions
+2020-07-20 20:15:25,106 INFO c.i.t.s.TransactionService [http-nio-8084-exec-4] [INFO] - New Transaction with ID: null
+2020-07-20 20:15:25,106 INFO c.i.t.s.TransactionService [http-nio-8084-exec-4] [INFO] - New Transaction with ID: null
+2020-07-20 20:19:11,480 INFO c.i.t.s.TransactionService [http-nio-8084-exec-6] [INFO] - New Transaction with ID: null
+2020-07-20 20:19:11,480 INFO c.i.t.s.TransactionService [http-nio-8084-exec-6] [INFO] - New Transaction with ID: null
+2020-07-20 20:35:11,384 INFO c.i.t.s.TransactionService [http-nio-8084-exec-1] [INFO] - New Transaction with ID: null
+2020-07-20 20:35:11,384 INFO c.i.t.s.TransactionService [http-nio-8084-exec-1] [INFO] - New Transaction with ID: null
+2020-07-20 20:37:12,908 INFO c.i.t.s.TransactionService [http-nio-8084-exec-4] [INFO] - Find all Transactions
+2020-07-20 20:37:12,908 INFO c.i.t.s.TransactionService [http-nio-8084-exec-4] [INFO] - Find all Transactions
+2020-07-20 20:40:07,638 INFO c.i.t.s.TransactionService [http-nio-8084-exec-7] [INFO] - Find all Transactions
+2020-07-20 20:40:07,638 INFO c.i.t.s.TransactionService [http-nio-8084-exec-7] [INFO] - Find all Transactions
+2020-07-20 20:40:34,309 INFO c.i.t.s.TransactionService [http-nio-8084-exec-9] [INFO] - Find all Transactions
+2020-07-20 20:40:34,309 INFO c.i.t.s.TransactionService [http-nio-8084-exec-9] [INFO] - Find all Transactions
+2020-07-20 20:41:44,664 INFO c.i.t.s.TransactionService [http-nio-8084-exec-1] [INFO] - Find all Transactions
+2020-07-20 20:41:44,664 INFO c.i.t.s.TransactionService [http-nio-8084-exec-1] [INFO] - Find all Transactions
+2020-07-20 20:42:12,179 INFO c.i.t.s.TransactionService [http-nio-8084-exec-2] [INFO] - Find all Transactions
+2020-07-20 20:42:12,179 INFO c.i.t.s.TransactionService [http-nio-8084-exec-2] [INFO] - Find all Transactions
+2020-07-20 21:40:33,053 INFO c.i.t.s.TransactionService [http-nio-8084-exec-1] [INFO] - New Transaction with ID: null
+2020-07-20 21:40:33,053 INFO c.i.t.s.TransactionService [http-nio-8084-exec-1] [INFO] - New Transaction with ID: null
+2020-07-20 21:46:31,853 INFO c.i.t.s.TransactionService [http-nio-8084-exec-3] [INFO] - New Transaction with ID: null
+2020-07-20 21:46:31,853 INFO c.i.t.s.TransactionService [http-nio-8084-exec-3] [INFO] - New Transaction with ID: null
+2020-07-20 21:48:04,190 INFO c.i.t.s.TransactionService [http-nio-8084-exec-5] [INFO] - New Transaction with ID: null
+2020-07-20 21:48:04,190 INFO c.i.t.s.TransactionService [http-nio-8084-exec-5] [INFO] - New Transaction with ID: null
+2020-07-20 21:48:51,553 INFO c.i.t.s.TransactionService [http-nio-8084-exec-7] [INFO] - New Transaction with ID: null
+2020-07-20 21:48:51,553 INFO c.i.t.s.TransactionService [http-nio-8084-exec-7] [INFO] - New Transaction with ID: null
+2020-07-20 21:50:21,692 INFO c.i.t.s.TransactionService [http-nio-8084-exec-9] [INFO] - New Transaction with ID: null
+2020-07-20 21:50:21,692 INFO c.i.t.s.TransactionService [http-nio-8084-exec-9] [INFO] - New Transaction with ID: null
+2020-07-20 22:01:00,264 INFO c.i.t.s.TransactionService [http-nio-8084-exec-1] [INFO] - New Transaction with ID: null
+2020-07-20 22:01:00,264 INFO c.i.t.s.TransactionService [http-nio-8084-exec-1] [INFO] - New Transaction with ID: null
+2020-07-20 22:01:53,859 INFO c.i.t.s.TransactionService [http-nio-8084-exec-3] [INFO] - New Transaction with ID: null
+2020-07-20 22:01:53,859 INFO c.i.t.s.TransactionService [http-nio-8084-exec-3] [INFO] - New Transaction with ID: null
