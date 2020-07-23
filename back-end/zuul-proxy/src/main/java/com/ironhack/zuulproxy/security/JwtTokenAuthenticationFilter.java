@@ -2,6 +2,7 @@ package com.ironhack.zuulproxy.security;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
+import org.springframework.http.HttpStatus;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.context.SecurityContextHolder;
@@ -26,7 +27,6 @@ public class JwtTokenAuthenticationFilter extends OncePerRequestFilter {
 	@Override
 	protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response, FilterChain chain)
 			throws ServletException, IOException {
-		
 		// 1. get the authentication header. Tokens are supposed to be passed in the authentication header
 		String header = request.getHeader(jwtConfig.getHeader());
 		
@@ -44,7 +44,6 @@ public class JwtTokenAuthenticationFilter extends OncePerRequestFilter {
 		
 		// 3. Get the token
 		String token = header.replace(jwtConfig.getPrefix(), "");
-		
 		try {	// exceptions might be thrown in creating the claims if for example the token is expired
 			
 			// 4. Validate the token
@@ -52,12 +51,10 @@ public class JwtTokenAuthenticationFilter extends OncePerRequestFilter {
 					.setSigningKey(jwtConfig.getSecret().getBytes())
 					.parseClaimsJws(token)
 					.getBody();
-			
 			String username = claims.getSubject();
 			if(username != null) {
 				@SuppressWarnings("unchecked")
 				List<String> authorities = (List<String>) claims.get("authorities");
-				
 				// 5. Create auth object
 				// UsernamePasswordAuthenticationToken: A built-in object, used by spring to represent the current authenticated / being authenticated user.
 				// It needs a list of authorities, which has type of GrantedAuthority interface, where SimpleGrantedAuthority is an implementation of that interface
@@ -67,6 +64,7 @@ public class JwtTokenAuthenticationFilter extends OncePerRequestFilter {
 				 // 6. Authenticate the user
 				 // Now, user is authenticated
 				 SecurityContextHolder.getContext().setAuthentication(auth);
+				System.out.println(auth);
 			}
 			
 		} catch (Exception e) {

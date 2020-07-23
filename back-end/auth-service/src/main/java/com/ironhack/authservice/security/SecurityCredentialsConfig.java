@@ -17,7 +17,7 @@ import javax.servlet.http.HttpServletResponse;
 public class SecurityCredentialsConfig extends WebSecurityConfigurerAdapter {
 	
 	@Autowired
-	private UserDetailsService userDetailsService;
+	private UserDetailsServiceImpl userDetailsService;
 
 	@Autowired
 	private JwtConfig jwtConfig;
@@ -33,15 +33,16 @@ public class SecurityCredentialsConfig extends WebSecurityConfigurerAdapter {
 	            .exceptionHandling().authenticationEntryPoint((req, rsp, e) -> rsp.sendError(HttpServletResponse.SC_UNAUTHORIZED))
 	        .and()
 		    // Add a filter to validate user credentials and add token in the response header
-			
+				.addFilter(new JwtUsernameAndPasswordAuthenticationFilter(authenticationManager(), jwtConfig))
 		    // What's the authenticationManager()? 
 		    // An object provided by WebSecurityConfigurerAdapter, used to authenticate the user passing user's credentials
 		    // The filter needs this auth manager to authenticate the user.
-		    .addFilter(new JwtUsernameAndPasswordAuthenticationFilter(authenticationManager(), jwtConfig))	
 		.authorizeRequests()
 		    // allow all POST requests
 				.antMatchers(HttpMethod.POST, "/auth/sign-in").permitAll()
-		    .antMatchers(HttpMethod.POST, jwtConfig.getUri()).permitAll()
+				.antMatchers(HttpMethod.OPTIONS, "/auth/sign-in").permitAll()
+				.antMatchers(HttpMethod.OPTIONS, "/auth/**").permitAll()
+				.antMatchers(HttpMethod.POST, "/auth/").permitAll()
 		    // any other requests must be authenticated
 		    .anyRequest().authenticated();
 	}
