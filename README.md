@@ -12,7 +12,7 @@
 ## Introduction
 The goal of this project was fully deploy a application with the back-end developed in Spring Framework and the front-end using Angular.
 
-Once in the application, the first thing users will come accross is the #login page, where they could login if they had an account or go to #sign-in page
+Once in the application, the first thing users will come accross is the **login page**, where they could login if they had an account or go to **sign-in** page
 where they can register.
 
 The first approach was to configure a Zuul Proxy that would connect to the Auth-Service in order to get the users authenticated and then serve as a Gateway to the rest of services:
@@ -58,6 +58,5 @@ The aplication is a single-page app where the users can:
 * Include at least 1 GET, POST, PUT/PATCH, and DELETE route
 * Include adequate and complete documentation
 * Include at least 1 technology, tool, framework, or library that has not been covered in class
-
 
 
