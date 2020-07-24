@@ -1,0 +1,32 @@
+<form [formGroup]="transactionForm" (ngSubmit)="newTransaction()">
+    <mat-form-field class="example-full-witdh">
+        <mat-label>Receiver Account ID</mat-label>
+        <input matInput placeholder="Ex. 1" formControlName="receiverAccountId" />
+        <mat-error *ngIf="amount.invalid">
+            Please enter a valid amount
+        </mat-error>
+    </mat-form-field>
+    <mat-form-field class="example-full-witdh">
+        <mat-label>Amount</mat-label>
+        <input matInput placeholder="Ex. 500" formControlName="amount" />
+        <mat-error *ngIf="amount.invalid">
+            Please enter a valid amount
+        </mat-error>
+    </mat-form-field>
+    <mat-form-field>
+        <mat-label>Concept</mat-label>
+        <mat-select formControlName="concept">
+            <mat-option value="HOME">Home</mat-option>
+            <mat-option value="SHOPPING">Shopping</mat-option>
+            <mat-option value="PERSONAL">Personal</mat-option>
+            <mat-option value="RESTAURANTS">Restaurants</mat-option>
+            <mat-option value="HEALTH">Box</mat-option>
+            <mat-option value="NO_CONCEPT">No Concept</mat-option>
+        </mat-select>
+    </mat-form-field>
+    <div>
+        <button type="submit" mat-raised-button color="primary" [disabled]="transactionForm.invalid">
+      Make Transaction
+    </button>
+    </div>
+</form>

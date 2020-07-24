@@ -1,0 +1,17 @@
+<mat-sidenav-container class="sidenav-container">
+    <mat-sidenav-content>
+        <mat-toolbar color="primary">
+            <div class="img-container">
+                <img [routerLink]="'/'" class="logo" src="../../assets/img/logo.png" alt="Logo">
+            </div>
+            <span class="spacer"></span>
+            <button mat-button class="help-button">Help</button>
+            <button mat-button class="sign-button" [routerLink]="'/sign-in'">Sign-In</button>
+            <button mat-button class="login-button" [routerLink]="'/'">Login</button>
+        </mat-toolbar>
+        <div class="navbar-divider">
+            <h1 class="middle-name">BANCA ONLINE</h1>
+        </div>
+
+    </mat-sidenav-content>
+</mat-sidenav-container>
