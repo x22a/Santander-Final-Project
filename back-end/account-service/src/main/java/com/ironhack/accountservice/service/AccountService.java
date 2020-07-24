@@ -51,6 +51,15 @@ public class AccountService {
     }
 
     /**
+     * Get all Accounts by Owner id
+     * @return List of Accounts
+     */
+    public List<Account> findAllByOwnerId(Long id){
+        LOGGER.info("[INFO] - Find all Accounts for owner id " + id);
+        return accountRepository.findAllByOwnerId(id);
+    }
+
+    /**
      * Create Account
      * @param account Account
      * @return Transaction

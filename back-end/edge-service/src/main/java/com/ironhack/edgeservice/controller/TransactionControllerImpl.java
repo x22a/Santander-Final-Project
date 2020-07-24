@@ -35,7 +35,6 @@ public class TransactionControllerImpl {
     @GetMapping("/transactions/{id}")
     @ResponseStatus(HttpStatus.OK)
     public Transaction findById(@PathVariable Long id) {
-        System.out.println("AQUI SI QUE LLEGA");
         return transactionService.findById(id);
     }
 
@@ -58,10 +57,19 @@ public class TransactionControllerImpl {
     @ResponseStatus(HttpStatus.CREATED)
     public Transaction save(@RequestBody @Valid Transaction transaction) {
 
-        System.out.println();
-        System.out.println("AHÍ VA");
-        System.out.println();
         return transactionService.save(transaction);
+    }
+
+    /**
+     * Get all Transactions by sender account id
+     * @param id Long sender account id
+     * @return List of Transactions
+     */
+    @GetMapping("/transactions/sender/account/{id}")
+    @ResponseStatus(HttpStatus.OK)
+    public List<Transaction> findAllBySenderAccountId(@PathVariable Long id) {
+        System.out.println(id);
+        return transactionService.findAllBySenderAccountId(id);
     }
 
 }

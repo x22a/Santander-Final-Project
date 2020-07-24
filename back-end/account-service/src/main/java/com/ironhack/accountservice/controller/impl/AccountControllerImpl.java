@@ -42,6 +42,16 @@ public class AccountControllerImpl {
     }
 
     /**
+     * Get all Accounts by OwnerId
+     * @return List of Accounts
+     */
+    @GetMapping("/accounts/owner/{id}")
+    @ResponseStatus(HttpStatus.OK)
+    public List<Account> findAllByOwnerUsername(@PathVariable Long id) {
+        return accountService.findAllByOwnerId(id);
+    }
+
+    /**
      * Create Account
      * @param account Account to create
      * @return Account created

@@ -19,11 +19,6 @@ public class Transaction {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    /**
-     * Id of the sender
-     */
-    @NotNull(message = "Sender id cannot be null")
-    private Long senderId;
 
     /**
      * Id of the sender account
@@ -31,11 +26,7 @@ public class Transaction {
     @NotNull(message = "Sender account id cannot be null")
     private Long senderAccountId;
 
-    /**
-     * Id of the receiver
-     */
-    @NotNull(message = "Receiver id cannot be null")
-    private Long receiverId;
+
 
     /**
      * Id of the receiver account
@@ -82,21 +73,7 @@ public class Transaction {
         this.id = id;
     }
 
-    /**
-     * Get sender id
-     * @return senderId Long id
-     */
-    public Long getSenderId() {
-        return senderId;
-    }
 
-    /**
-     * Set sender id
-     * @param senderId Long senderId
-     */
-    public void setSenderId(Long senderId) {
-        this.senderId = senderId;
-    }
 
     /**
      * Get sender account id
@@ -114,21 +91,7 @@ public class Transaction {
         this.senderAccountId = senderAccountId;
     }
 
-    /**
-     * Get receiver id
-     * @return receiverId Long id
-     */
-    public Long getReceiverId() {
-        return receiverId;
-    }
 
-    /**
-     * Set receiver id
-     * @param receiverId Long receiverId
-     */
-    public void setReceiverId(Long receiverId) {
-        this.receiverId = receiverId;
-    }
 
     /**
      * Get receiver account id

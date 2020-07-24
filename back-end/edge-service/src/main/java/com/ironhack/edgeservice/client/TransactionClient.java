@@ -43,4 +43,14 @@ public interface TransactionClient {
     @ResponseStatus(HttpStatus.CREATED)
     public Transaction save(@RequestBody @Valid Transaction transaction);
 
+    /**
+     * Get all Transactions by sender account id
+     * @param id Long sender account id
+     * @return List of Transactions
+     */
+    @GetMapping("/transactions/sender/account/{id}")
+    @ResponseStatus(HttpStatus.OK)
+    public List<Transaction> findAllBySenderAccountId(@PathVariable Long id);
+
+
 }
