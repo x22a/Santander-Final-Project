@@ -17,9 +17,11 @@ where they can register.
 
 The first approach was to configure a Zuul Proxy that would connect to the Auth-Service in order to get the users authenticated and then serve as a Gateway to the rest of services:
 
+![zuul](https://github.com/x22a/Santander-Final-Project/blob/master/img/zuul.png)
 
 Due to being unable to get the Authorizations back from Zuul Proxy to the Client the app was unable to work. So in the last days I had to make the decision and forget about the Zuul Proxy and stay with an Edge-Service that would be the same that authenticated the users and then access the rest of services:
 
+![nozuul](https://github.com/x22a/Santander-Final-Project/blob/master/img/nozuul.png)
 
 Anyway the **Zuul version of the project** can be found in the branch with the same name.
 
