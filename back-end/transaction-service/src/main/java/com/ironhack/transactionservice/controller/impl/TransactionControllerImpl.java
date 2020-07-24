@@ -43,16 +43,16 @@ public class TransactionControllerImpl {
         return transactionService.findAll();
     }
 
-    /**
-     * Get all Transactions by sender id
-     * @param id Long sender id
-     * @return List of Transactions
-     */
-    @GetMapping("/transactions/sender/{id}")
-    @ResponseStatus(HttpStatus.OK)
-    public List<Transaction> findAllBySenderId(@PathVariable Long id) {
-        return transactionService.findAllBySenderId(id);
-    }
+    ///**
+    // * Get all Transactions by sender id
+    // * @param id Long sender id
+    // * @return List of Transactions
+    // */
+    //@GetMapping("/transactions/sender/{id}")
+    //@ResponseStatus(HttpStatus.OK)
+    //public List<Transaction> findAllBySenderId(@PathVariable Long id) {
+    //    return transactionService.findAllBySenderId(id);
+    //}
 
     /**
      * Get all Transactions by sender account id
@@ -65,16 +65,16 @@ public class TransactionControllerImpl {
         return transactionService.findAllBySenderAccountId(id);
     }
 
-    /**
-     * Get all Transactions by receiver id
-     * @param id Long receiver id
-     * @return List of Transactions
-     */
-    @GetMapping("/transactions/receiver/{id}")
-    @ResponseStatus(HttpStatus.OK)
-    public List<Transaction> findAllByReceiverId(@PathVariable Long id) {
-        return transactionService.findAllByReceiverId(id);
-    }
+    ///**
+    // * Get all Transactions by receiver id
+    // * @param id Long receiver id
+    // * @return List of Transactions
+    // */
+    //@GetMapping("/transactions/receiver/{id}")
+    //@ResponseStatus(HttpStatus.OK)
+    //public List<Transaction> findAllByReceiverId(@PathVariable Long id) {
+    //    return transactionService.findAllByReceiverId(id);
+    //}
 
     /**
      * Get all Transactions by receiver account id
@@ -94,8 +94,8 @@ public class TransactionControllerImpl {
      */
     @PostMapping("/transactions/")
     @ResponseStatus(HttpStatus.CREATED)
-    public Transaction save(@RequestBody @Valid Transaction transaction, @RequestHeader HttpHeaders headers) {
-        return transactionService.save(transaction, headers);
+    public Transaction save(@RequestBody @Valid Transaction transaction) {
+        return transactionService.save(transaction);
     }
 
 

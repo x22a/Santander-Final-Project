@@ -53,14 +53,14 @@ public class TransactionService {
         return transactionRepository.findAll();
     }
 
-    /**
-     * Get all Transactions by sender id
-     * @param id Long sender id
-     * @return List of Transactions
-     */
-    public List<Transaction> findAllBySenderId(Long id) {
-        return transactionRepository.findAllBySenderId(id);
-    }
+   ///**
+   // * Get all Transactions by sender id
+   // * @param id Long sender id
+   // * @return List of Transactions
+   // */
+   //public List<Transaction> findAllBySenderId(Long id) {
+   //    return transactionRepository.findAllBySenderId(id);
+   //}
 
     /**
      * Get all Transactions by sender account id
@@ -71,14 +71,14 @@ public class TransactionService {
         return transactionRepository.findAllBySenderAccountId(id);
     }
 
-    /**
-     * Get all Transactions by receiver id
-     * @param id Long receiver id
-     * @return List of Transactions
-     */
-    public List<Transaction> findAllByReceiverId(Long id) {
-        return transactionRepository.findAllByReceiverId(id);
-    }
+   ///**
+   // * Get all Transactions by receiver id
+   // * @param id Long receiver id
+   // * @return List of Transactions
+   // */
+   //public List<Transaction> findAllByReceiverId(Long id) {
+   //    return transactionRepository.findAllByReceiverId(id);
+   //}
 
     /**
      * Get all Transactions by receiver account id
@@ -95,8 +95,7 @@ public class TransactionService {
      * @param transaction Transaction
      * @return Transaction
      */
-    public Transaction save(Transaction transaction, HttpHeaders headers){
-        System.out.println(headers);
+    public Transaction save(Transaction transaction){
         LOGGER.info("[INFO] - New Transaction with ID: " + transaction.getId());
         return transactionRepository.save(transaction);
     }

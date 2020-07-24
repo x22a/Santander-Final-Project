@@ -1,4 +1,4 @@
-package com.ironhack.accountservice.model;
+package com.ironhack.edgeservice.model;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
@@ -6,20 +6,16 @@ import javax.validation.constraints.NotNull;
 /**
  * Account
  */
-@Entity
 public class Account {
     /**
      * Id of the Account
      */
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     /**
      * Amount in the Account
      */
     @NotNull(message = "Amount cannot be null")
-    @Embedded
     private Money balance;
 
     /**

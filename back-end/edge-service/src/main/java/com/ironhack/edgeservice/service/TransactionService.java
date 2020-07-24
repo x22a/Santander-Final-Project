@@ -1,8 +1,10 @@
 package com.ironhack.edgeservice.service;
 
 import com.ironhack.edgeservice.client.TransactionClient;
+import com.ironhack.edgeservice.client.UserClient;
 import com.ironhack.edgeservice.model.SecurityUser;
 import com.ironhack.edgeservice.model.Transaction;
+import com.ironhack.edgeservice.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
@@ -18,6 +20,9 @@ public class TransactionService {
 
     @Autowired
     private TransactionClient transactionClient;
+
+    @Autowired
+    private UserClient userClient;
 
     /**
      * Get Transaction by ID
@@ -44,5 +49,14 @@ public class TransactionService {
      */
     public Transaction save(Transaction transaction){
         return transactionClient.save(transaction);
+    }
+
+    /**
+     * Get all Transactions by sender account id
+     * @param id Long sender account id
+     * @return List of Transactions
+     */
+    public List<Transaction> findAllBySenderAccountId(Long id) {
+        return transactionClient.findAllBySenderAccountId(id);
     }
 }
